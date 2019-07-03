@@ -40,7 +40,10 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
         title: Text('I Am Poor'),
       ),
       body: Center(
-        child: Image(image: NetworkImage("https://avatars3.githubusercontent.com/u/7950850?s=460&v=4"),),
+        //child: Image(image: NetworkImage("https://avatars3.githubusercontent.com/u/7950850?s=460&v=4"),),
+        child: Image(
+            image: AssetImage("images/poor.jpg")
+        ),
       ),
     );
   }
